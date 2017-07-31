@@ -2,6 +2,10 @@ Practice
 My name is Tracy Ward
 Practice
 What up Homie's!  Monique Here!
+<<<<<<< Updated upstream
 Push, push, in the git...
 
 2! Push, push, in the git...
+=======
+I am making changes - MOnique
+>>>>>>> Stashed changes
