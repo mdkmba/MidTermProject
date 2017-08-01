@@ -101,25 +101,3 @@ Sweet Iced Tea
 NA
 NA
 1.95
-
-What do you think about condensing down into three combo's :
-
-Combo #1: Meat, 2 Sides/w CB, Desert & Drink - $$$
-Combo #2: Meat, 2 Sides/w CB & Desert - $$
-Combo #3: Meat, 2 Sides/w CB - $
-                                                                         *(CB = Corn Bread)
-ala carte                                           *($$$ = Higher Price/ $$ = Lower Price/ $ = Lowest Price)
-vegetables - same price
-deserts    - same price
-drinks     - same price
-beef       - $$$
-pork       - $$
-chicken    - $
-
-
-
-
-
-
-
-
