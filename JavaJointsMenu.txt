@@ -1,9 +1,4 @@
-1
-Beef
-Smothered Steak
-12oz. T-bone charbroiled, covered with sautéed onions and brown gravy   
-NA
-14.95
+1   Beef    Smothered Steak 12oz. T-bone charbroiled, covered with sautéed onions and brown gravy       NA  14.95
 
 2
 Beef
@@ -70,7 +65,7 @@ NA
 11
 Sides
 Baked Beans
-
+Baked in our wood burning oven.
 NA
 3.65
 
@@ -91,13 +86,13 @@ NA
 14
 Beverages
 Lemonade  
-NA
+That cool, refreshing drink.
 NA
 2.25
 
 15
 Beverages
 Sweet Iced Tea
-NA
+It's brisk, baby.
 NA
 1.95

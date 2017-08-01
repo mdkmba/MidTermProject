@@ -6,21 +6,25 @@ public class JavaSoul {
 
     public static void main(String[] args) throws FileNotFoundException{
 
-        ArrayList<String> menu1 = new ArrayList<>();
+        ArrayList<Product> menu1 = new ArrayList<>();
 
         Scanner scnr = new Scanner(System.in);
 
 
 
         String readText = readFromFile();
+if (readText.equals("~")) {
 
-        menu1.add(readText);
 
-        for (Product x : menu1) {
+    menu1.add(readText);
 
-            System.out.println(x + "MDK");
 
-        }
+}
+//        for (Product x : menu1) {
+//
+//            System.out.println(x + "MDK");
+//
+//        }
     }
 
     private static String readFromFile() throws FileNotFoundException {
