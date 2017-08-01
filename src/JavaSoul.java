@@ -3,11 +3,13 @@ import java.io.*;
 public class JavaSoul {
 
 
+    public static void main(String[] args) {
 
+    }
 
 
     private static String readFromFile() {
-        File myFile = new File("Names.txt");
+        File myFile = new File("practice.txt");
         String output = "";
         try {
             FileReader reader = new FileReader(myFile);
