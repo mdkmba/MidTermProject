@@ -100,24 +100,10 @@ Beverages
 Sweet Iced Tea
 NA
 NA
+<<<<<<< HEAD
 1.95
 
 
-Maybe we should set up our io File first thing in the morning also,
-what do you guys think about condensing down into three combo's and
-a 6 item ala carte?:
-
-Combo #1: Meat, 2 Sides/w CB, Desert & Drink - $$$
-Combo #2: Meat, 2 Sides/w CB & Desert - $$
-Combo #3: Meat, 2 Sides/w CB - $
-                                                                       *(CB = Corn Bread)
-ala carte                                           *($$$ = Higher Price/ $$ = Lower Price/ $ = Lowest Price)
-vegetables - same price
-deserts    - same price
-drinks     - same price
-beef       - $$$
-pork       - $$
-chicken    - $
 
 
 
@@ -126,3 +112,7 @@ chicken    - $
 
 
 
+
+=======
+1.95
+>>>>>>> 53d401740cd0dbb28666515c301bf2c8264e2df0
