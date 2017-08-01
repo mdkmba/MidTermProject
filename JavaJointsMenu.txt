@@ -17,3 +17,12 @@
 15  Beverages     Sweet Iced Tea      1.95
 
 
+
+// CASH RENDERED
+CASH = ###.##
+
+// CHECK NO.
+CHECK = #### #### ####
+
+// CREDIT CARD NO.              EXPIRATION NO.      CVV CODE
+CREDIT = #### #### #### ####        ##/##             ###
