@@ -1,105 +1,19 @@
-1
-Beef
-Smothered Steak
-12oz. T-bone charbroiled, covered with sautéed onions and brown gravy   
-NA
-14.95
 
-2
-Beef
-New York Strip
-10oz strip steak charbroiled with the perfect seasonings  
-NA
-13.95
 
-3
-Pork
-Pork Chops
-Center cut chops charbroiled or fried
-NA
-10.95
-
-4
-Pork
-B.B.Q. St. Louis Ribs
-Half slab of ribs basted in our own special B.B.Q. sauce while charbroiled
-14.95
-
-5
-Chicken
-Marinated Chicken Breast
-Two boneless chicken breasts, seasoned then char-broiled
-NA
-10.45
-
-6
-Chicken
-Baked Chicken
-Half a chicken marinated overnight, then baked until golden brown  
-NA
-10.95
-
-7
-Seafood
-Cod Fillet
-Broiled
-NA
-9.95
-
-8
-Seafood
-Catfish Fillet
-Broiled
-NA
-10.95
-
-9
-Vegetables
-Vegetable Plate
-Four sides with cornbread  
-NA
-10.95
-
-10
-Sides
-Potato Salad
-Our special recipie
-NA
-3.65
-
-11
-Sides
-Baked Beans
-
-NA
-3.65
-
-12
-Desserts
-Peach Cobbler
-Our homemade cobbler, served warm.  
-NA
-3.45
-
-13
-Desserts
-Sweet Potato Pie
-Sweet southern
-NA
-2.95
-
-14
-Beverages
-Lemonade  
-NA
-NA
-2.25
-
-15
-Beverages
-Sweet Iced Tea
-NA
-NA
-1.95
+1   Beef        12oz. T-bone        14.95
+2   Beef        New York Strip      13.95
+3   Pork        Pork Chops          10.95
+4   Pork        Pulled Pork         14.95
+5   Chicken     Chicken Breast      10.45
+6   Chicken     Baked Chicken       10.95
+7   Seafood     Cod Fillet           9.95
+8   Seafood     Catfish Fillet       10.95
+9   Vegetable   Plate                10.95
+10  Sides       Potato Salad          3.65
+11  Sides       Baked Beans           3.65
+12  Desserts    Peach Cobbler         3.45
+13  Desserts    Sweet Potato Pie      2.95
+14  Beverages     Lemonade            2.25
+15  Beverages     Sweet Iced Tea      1.95
 
 
