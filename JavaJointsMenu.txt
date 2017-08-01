@@ -1,6 +1,3 @@
-GC Park’s Java Joint!
-MENU
-
 1
 Beef
 Smothered Steak
@@ -66,14 +63,14 @@ NA
 10
 Sides
 Potato Salad
-NA
+Our special recipie
 NA
 3.65
 
 11
 Sides
 Baked Beans
-NA
+
 NA
 3.65
 
@@ -87,7 +84,7 @@ NA
 13
 Desserts
 Sweet Potato Pie
-NA
+Sweet southern
 NA
 2.95
 
