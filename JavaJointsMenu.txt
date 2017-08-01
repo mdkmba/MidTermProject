@@ -100,19 +100,6 @@ Beverages
 Sweet Iced Tea
 NA
 NA
-<<<<<<< HEAD
 1.95
 
 
-
-
-
-
-
-
-
-
-
-=======
-1.95
->>>>>>> 53d401740cd0dbb28666515c301bf2c8264e2df0
