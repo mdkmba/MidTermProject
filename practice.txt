@@ -1,4 +1,4 @@
-GC Park’s Java Joint!
+Java Soul
 MENU
 
 1
@@ -66,14 +66,14 @@ NA
 10
 Sides
 Potato Salad
-NA
+Our special recipie
 NA
 3.65
 
 11
 Sides
 Baked Beans
-NA
+
 NA
 3.65
 
@@ -87,7 +87,7 @@ NA
 13
 Desserts
 Sweet Potato Pie
-NA
+Sweet southern
 NA
 2.95
 
