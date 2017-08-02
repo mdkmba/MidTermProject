@@ -6,10 +6,13 @@ import java.io.IOException;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.ArrayList;
+import java.util.Scanner;
 
 
 public class JavaSoul {
     public static void main(String[] args) throws IOException {
+
+        Scanner scnr = new Scanner(System.in);
 
         ArrayList<Product> menuList = readFile("./JavaJointsMenu.txt");
 
@@ -17,12 +20,12 @@ public class JavaSoul {
             System.out.println("Issue with file... closing");
             return;
         }
-        System.out.println("\n\n\nWelcome to Java Soul!\nDown Home Cooking, UP NORTH!\nPlease make your selection(s) from our menu.\n");
+        System.out.println("\n\n\nWelcome to Java Soul!\nDown Home Cooking, UP NORTH!\nPlease take a look at our selections!\n");
         for (int i = 0; i < 107; i++){
             System.out.print("*");
 
         }
-        System.out.println("\n\n");
+        System.out.println("\n");
 
 
         for (Product c: menuList) {
@@ -33,7 +36,18 @@ public class JavaSoul {
             System.out.print("*");
 
         }
-
+        System.out.print("\nWould you like to order from our delicious menu? (Y/N): ");
+        String placeOrder = "";
+        placeOrder = scnr.nextLine();
+        if (placeOrder.equalsIgnoreCase("N")) {
+            System.out.println("Have a nice Day! Come back soon!");
+            scnr.nextInt();
+        }
+        else{
+            System.out.println("Please make a selection from the menu above (1-15)");
+            int selection = scnr.nextInt();
+            String order = ordering(selection);
+        }
     }
 
     public static ArrayList<Product> readFile (String filename) throws IOException{
