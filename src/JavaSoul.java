@@ -24,15 +24,9 @@ public class JavaSoul {
         }
         System.out.println("\n\n");
 
-        //now I have a filled ArrayList of s
-        //  at least in theory...
 
-        //now do the rest of your program using this list
-
-        //output this list
-        //enhanced for (foreach) to go through list
         for (Product c: menuList) {
-            //toString does the formatting
+
             System.out.println("\n" + c);
         }
         for (int i = 0; i < 107; i++){
@@ -51,12 +45,11 @@ public class JavaSoul {
             FileReader fileRdr = new FileReader(menuFile);
             BufferedReader in = new BufferedReader(fileRdr);
 
-            //read in the first line
             String line = in.readLine();
 
-            //as long as there's another line
             while (line != null) {
-                //break the line apart based on tabs
+
+
                 String[] details = line.split("\t");
 
                 if (details.length < 0) {
@@ -79,10 +72,8 @@ public class JavaSoul {
 
                 Product c = new Product(itemNumber, category, itemName, description, miscInfo, price);
 
-                //add the new Product into ArrayList
                 menuList.add(c);
 
-                //read in the next line for the next iteration
                 line = in.readLine();
             }
 
