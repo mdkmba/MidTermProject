@@ -1,4 +1,3 @@
-import javax.annotation.processing.FilerException;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
@@ -11,8 +10,6 @@ import java.util.Scanner;
 
 public class JavaSoul {
     public static void main(String[] args) throws IOException {
-
-        Ordering order = new Ordering();
 
         Scanner scnr = new Scanner(System.in);
 
@@ -48,7 +45,7 @@ public class JavaSoul {
             System.out.println("Please make a selection from the menu above (1-15)");
             int selection = scnr.nextInt();
 
-            order.takeOrder(menuList, selection);
+            takeOrder(menuList, selection);
 
         }
     }
@@ -101,7 +98,7 @@ public class JavaSoul {
         return menuList;
     }
 
-    public void takeOrder(ArrayList<Product> menuList, int selection) {
+    public static void takeOrder(ArrayList<Product> menuList, int selection) {
 
         switch (selection) {
 
@@ -174,5 +171,5 @@ public class JavaSoul {
         }
     }
 }
-}
+
 
