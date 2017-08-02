@@ -12,6 +12,8 @@ import java.util.Scanner;
 public class JavaSoul {
     public static void main(String[] args) throws IOException {
 
+        Ordering order = new Ordering();
+
         Scanner scnr = new Scanner(System.in);
 
         ArrayList<Product> menuList = readFile("./JavaJointsMenu.txt");
@@ -21,18 +23,18 @@ public class JavaSoul {
             return;
         }
         System.out.println("\n\n\nWelcome to Java Soul!\nDown Home Cooking, UP NORTH!\nPlease take a look at our selections!\n");
-        for (int i = 0; i < 107; i++){
+        for (int i = 0; i < 107; i++) {
             System.out.print("*");
 
         }
         System.out.println("\n");
 
 
-        for (Product c: menuList) {
+        for (Product c : menuList) {
 
             System.out.println("\n" + c);
         }
-        for (int i = 0; i < 107; i++){
+        for (int i = 0; i < 107; i++) {
             System.out.print("*");
 
         }
@@ -42,15 +44,16 @@ public class JavaSoul {
         if (placeOrder.equalsIgnoreCase("N")) {
             System.out.println("Have a nice Day! Come back soon!");
             scnr.nextInt();
-        }
-        else{
+        } else {
             System.out.println("Please make a selection from the menu above (1-15)");
             int selection = scnr.nextInt();
-            String order = ordering(selection);
+
+            order.takeOrder(menuList, selection);
+
         }
     }
 
-    public static ArrayList<Product> readFile (String filename) throws IOException{
+    public static ArrayList<Product> readFile(String filename) throws IOException {
         ArrayList<Product> menuList = new ArrayList<>();
 
         try {
@@ -83,7 +86,6 @@ public class JavaSoul {
                 double price = Double.parseDouble(details[5]);
 
 
-
                 Product c = new Product(itemNumber, category, itemName, description, miscInfo, price);
 
                 menuList.add(c);
@@ -98,4 +100,79 @@ public class JavaSoul {
 
         return menuList;
     }
+
+    public void takeOrder(ArrayList<Product> menuList, int selection) {
+
+        switch (selection) {
+
+            case 1:
+                System.out.println(menuList.get(0));
+                break;
+
+            case 2:
+
+                System.out.println(menuList.get(0));
+                break;
+
+            case 3:
+                System.out.println(menuList.get(0));
+                break;
+
+            case 4:
+                System.out.println(menuList.get(0));
+                break;
+
+            case 5:
+                System.out.println(menuList.get(0));
+                break;
+
+            case 6:
+                System.out.println(menuList.get(0));
+                break;
+
+            case 7:
+                System.out.println(menuList.get(0));
+                break;
+
+            case 8:
+                System.out.println(menuList.get(0));
+                break;
+
+            case 9:
+                System.out.println(menuList.get(0));
+                break;
+
+            case 10:
+                System.out.println(menuList.get(0));
+                break;
+
+            case 11:
+                System.out.println(menuList.get(0));
+                break;
+
+            case 12:
+                System.out.println(menuList.get(0));
+                break;
+
+            case 13:
+                System.out.println(menuList.get(0));
+                break;
+
+            case 14:
+                System.out.println(menuList.get(0));
+                break;
+
+            case 15:
+                System.out.println(menuList.get(0));
+                break;
+
+
+            //   while ((menuList < 1) || (menuList > 15)) {
+            //   System.out.print("\nError! Incorrect choice.\n");
+
+
+        }
+    }
 }
+}
+
