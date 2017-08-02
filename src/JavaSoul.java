@@ -11,6 +11,7 @@ import java.util.Scanner;
 public class JavaSoul {
 
 
+
     public static void main(String[] args) throws IOException {
 
         Scanner scnr = new Scanner(System.in);
@@ -113,68 +114,74 @@ public class JavaSoul {
 
 
     public static void takeOrder(ArrayList<Product> menuList, int selection) {
-
+        Scanner scnr = new Scanner(System.in);
         switch (selection) {
 
             case 1:
+                System.out.print("You ordered: ");
                 System.out.println(menuList.get(0));
+                System.out.println("How many would you like to order?: ");
+                int numItems1 = scnr.nextInt();
+                for (int i = 0;i < numItems1;i++){
+
+                }
                 break;
 
             case 2:
 
-                System.out.println(menuList.get(0));
+                System.out.println(menuList.get(1));
                 break;
 
             case 3:
-                System.out.println(menuList.get(0));
+                System.out.println(menuList.get(2));
                 break;
 
             case 4:
-                System.out.println(menuList.get(0));
+                System.out.println(menuList.get(3));
                 break;
 
             case 5:
-                System.out.println(menuList.get(0));
+                System.out.println(menuList.get(4));
                 break;
 
             case 6:
-                System.out.println(menuList.get(0));
+                System.out.println(menuList.get(5));
                 break;
 
             case 7:
-                System.out.println(menuList.get(0));
+                System.out.println(menuList.get(6));
                 break;
 
             case 8:
-                System.out.println(menuList.get(0));
+                System.out.println(menuList.get(7));
                 break;
 
             case 9:
-                System.out.println(menuList.get(0));
+                System.out.println(menuList.get(8));
                 break;
 
             case 10:
-                System.out.println(menuList.get(0));
+                System.out.println(menuList.get(9));
                 break;
 
             case 11:
-                System.out.println(menuList.get(0));
+                System.out.println(menuList.get(10));
                 break;
 
             case 12:
-                System.out.println(menuList.get(0));
+                System.out.println(menuList.get(11));
                 break;
 
             case 13:
-                System.out.println(menuList.get(0));
+                System.out.println(menuList.get(12));
                 break;
 
             case 14:
-                System.out.println(menuList.get(0));
+                System.out.println(menuList.get(13));
                 break;
 
             case 15:
-                System.out.println(menuList.get(0));
+                System.out.println(menuList.get(14));
                 break;
 
 
