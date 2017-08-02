@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 1	Beef	Smothered Steak	12oz. T-bone charbroiled	NA	14.95
 2	Beef	New York Strip	10oz strip steak charbroiled	NA	13.95
 3	Pork	Pork Chops	Center cut chops charbroiled or fried	NA	10.95
@@ -13,3 +14,33 @@
 13	Desserts	Swt Potato Pie	Southern style, up North	NA	2.95
 14	Beverages	Lemonade	That cool, refreshing drink	NA	2.25
 15	Beverages	Iced Tea	Ice Tea, baby. Too cold, too, cold	NA	2.25
+=======
+
+
+1   Beef        12oz. T-bone        14.95
+2   Beef        New York Strip      13.95
+3   Pork        Pork Chops          10.95
+4   Pork        Pulled Pork         14.95
+5   Chicken     Chicken Breast      10.45
+6   Chicken     Baked Chicken       10.95
+7   Seafood     Cod Fillet           9.95
+8   Seafood     Catfish Fillet       10.95
+9   Vegetable   Plate                10.95
+10  Sides       Potato Salad          3.65
+11  Sides       Baked Beans           3.65
+12  Desserts    Peach Cobbler         3.45
+13  Desserts    Sweet Potato Pie      2.95
+14  Beverages     Lemonade            2.25
+15  Beverages     Sweet Iced Tea      1.95
+
+
+
+// CASH RENDERED
+CASH = ###.##
+
+// CHECK NO.
+CHECK = #### #### ####
+
+// CREDIT CARD NO.              EXPIRATION NO.      CVV CODE
+CREDIT = #### #### #### ####        ##/##             ###
+>>>>>>> b6c0eba30fa0c6d025a88412d8b8fb559421ae06
