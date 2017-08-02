@@ -100,6 +100,7 @@ public class JavaSoul {
 
     public static void takeOrder(ArrayList<Product> menuList, int selection) {
 
+
         switch (selection) {
 
             case 1:
@@ -107,7 +108,6 @@ public class JavaSoul {
                 break;
 
             case 2:
-
                 System.out.println(menuList.get(0));
                 break;
 
