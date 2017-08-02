@@ -10,6 +10,9 @@ import java.util.Scanner;
 
 
 public class JavaSoul {
+
+
+
     public static void main(String[] args) throws IOException {
 
         Scanner scnr = new Scanner(System.in);
@@ -39,15 +42,14 @@ public class JavaSoul {
         System.out.print("\nWould you like to order from our delicious menu? (Y/N): ");
         String placeOrder = "";
         placeOrder = scnr.nextLine();
-        if (placeOrder.equalsIgnoreCase("N")) {
-            System.out.println("Have a nice Day! Come back soon!");
-            scnr.nextInt();
-        }
-        else{
-            System.out.println("Please make a selection from the menu above (1-15)");
-            int selection = scnr.nextInt();
-            String order = ordering(selection);
-        }
+//        if (placeOrder.equalsIgnoreCase("N")) {
+//            System.out.println("Have a nice Day! Come back soon!");
+//            scnr.nextInt();
+//        }
+//        else{
+//
+//            Ordering();
+//        }
     }
 
     public static ArrayList<Product> readFile (String filename) throws IOException{
@@ -98,4 +100,8 @@ public class JavaSoul {
 
         return menuList;
     }
+
+
+
+
 }
