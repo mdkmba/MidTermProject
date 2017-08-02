@@ -17,7 +17,7 @@ public class JavaSoul {
             System.out.println("Issue with file... closing");
             return;
         }
-        System.out.println("\n\n\nWelcome to Java Soul!\nDown Home Cooking, UP NORTH!\nPlease make your selection from our menu.\n");
+        System.out.println("\n\n\nWelcome to Java Soul!\nDown Home Cooking, UP NORTH!\nPlease make your selection(s) from our menu.\n");
         for (int i = 0; i < 107; i++){
             System.out.print("*");
 

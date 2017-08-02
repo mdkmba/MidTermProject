@@ -13,4 +13,3 @@
 13	Desserts	Swt Potato Pie	Southern style, up North	NA	2.95
 14	Beverages	Lemonade	That cool, refreshing drink	NA	2.25
 15	Beverages	Iced Tea	Ice Tea, baby. Too cold, too, cold	NA	2.25
-
