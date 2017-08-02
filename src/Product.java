@@ -9,20 +9,25 @@ public class Product {
     private String miscInfoM;
     private double priceM;
 
+
     public Product() {
-        itemNumberM = 0;
+
         categoryM = "";
         itemNameM = "";
         descriptionM = "";
         priceM = 0;
+        itemNumberM = 0;
     }
 
-    public Product(int itemNumber, String category, String itemName, String description, double price) {
+    public Product(int itemNumber, String category, String itemName, String description, String miscInfo, double price) {
+
         itemNumberM = itemNumber;
         categoryM = category;
         itemNameM = itemName;
         descriptionM = description;
+        miscInfoM = miscInfo;
         priceM = price;
+
     }
 
 
@@ -75,7 +80,14 @@ public class Product {
     }
 
 
+public String toString(){
 
+    String result = "";
+
+    System.out.printf("%-2d %-12s %-18s %-55s %-10s %.2f",itemNumberM ,categoryM, itemNameM, descriptionM, miscInfoM, priceM);
+
+    return result;
+}
 
 
 }

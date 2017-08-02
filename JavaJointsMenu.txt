@@ -1,98 +1,15 @@
-1   Beef    Smothered Steak 12oz. T-bone charbroiled, covered with sautéed onions and brown gravy       NA  14.95
-
-2
-Beef
-New York Strip
-10oz strip steak charbroiled with the perfect seasonings  
-NA
-13.95
-
-3
-Pork
-Pork Chops
-Center cut chops charbroiled or fried
-NA
-10.95
-
-4
-Pork
-B.B.Q. St. Louis Ribs
-Half slab of ribs basted in our own special B.B.Q. sauce while charbroiled
-14.95
-
-5
-Chicken
-Marinated Chicken Breast
-Two boneless chicken breasts, seasoned then char-broiled
-NA
-10.45
-
-6
-Chicken
-Baked Chicken
-Half a chicken marinated overnight, then baked until golden brown  
-NA
-10.95
-
-7
-Seafood
-Cod Fillet
-Broiled
-NA
-9.95
-
-8
-Seafood
-Catfish Fillet
-Broiled
-NA
-10.95
-
-9
-Vegetables
-Vegetable Plate
-Four sides with cornbread  
-NA
-10.95
-
-10
-Sides
-Potato Salad
-Our special recipie
-NA
-3.65
-
-11
-Sides
-Baked Beans
-Baked in our wood burning oven.
-NA
-3.65
-
-12
-Desserts
-Peach Cobbler
-Our homemade cobbler, served warm.  
-NA
-3.45
-
-13
-Desserts
-Sweet Potato Pie
-Sweet southern
-NA
-2.95
-
-14
-Beverages
-Lemonade  
-That cool, refreshing drink.
-NA
-2.25
-
-15
-Beverages
-Sweet Iced Tea
-It's brisk, baby.
-NA
-1.95
+1	Beef	Smothered Steak	12oz. T-bone charbroiled	NA	14.95
+2	Beef	New York Strip	10oz strip steak charbroiled	NA	13.95
+3	Pork	Pork Chops	Center cut chops charbroiled or fried	NA	10.95
+4	Pork	Pulled Pork	1/2 slab of B.B.Q. ribs charbroiled	NA	14.95
+5	Chicken	Chicken Breast	Two boneless chicken breasts, char-broiled	NA	10.45
+6	Chicken	Baked Chicken	Baked 1/2 chicken marinated overnight	NA	10.95
+7	Seafood	Cod Fillet	Broiled and seasoned salt free	NA	9.95
+8	Seafood	Catfish Fillet	Broiled dusted with light flour	NA	10.95
+9	Vegetable	Vegetable Plate	Four vegetable medley with cornbread	NA	10.95
+10	Sides	Potato Salad	It's famous!	NA	3.65
+11	Sides	Baked Beans	Slow cooked in our wood burning stove	NA	3.65
+12	Desserts	Peach Cobbler	Our homemade cobbler, served warm	NA	3.45
+13	Desserts	Swt Potato Pie	Southern style, up North	NA	2.95
+14	Beverages	Lemonade	That cool, refreshing drink	NA	2.25
+15	Beverages	Iced Tea	Ice Tea, baby. Too cold, too, cold	NA	2.25
