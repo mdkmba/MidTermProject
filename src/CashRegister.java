@@ -26,22 +26,24 @@ public class CashRegister {
 
         }
         double grandTotal = sumTotal * 1.06;
-        System.out.println("Your total is:  $" + grandTotal);
+        System.out.printf("\nTax: %.2f", sumTotal * .06);
+        System.out.printf("\nYour total is:  $%.2f", grandTotal);
 
-        System.out.println("What is your method of payment? (type Credit/Cash/Check");
+        System.out.println("\nWhat is your method of payment? (type Credit/Cash/Check)");
 
         Scanner scan = new Scanner(System.in);
         String pymtMeth = scan.nextLine();
 
         if (pymtMeth.equalsIgnoreCase("credit")) {
-            System.out.println("Please enter CC# - take your time, must be 16 digits");
+            System.out.println("\n\nPlease enter CC# - take your time, must be 16 digits");
             int numDigits = 0;
             long ccNum = scan.nextInt();
             while (ccNum > 0) {         //calculate & print number of digits in the number
                 ccNum = ccNum / 10;
                 numDigits = numDigits + 1;
+                System.out.println(numDigits );
 
-                if (numDigits < 16) {
+                if (numDigits < 1) {
                     System.out.println("Please re-enter CC #");
                 }  //eventually, when printing the receipt - output the last 4 digits using
                 // char ccNum = password.charAt(length - 1) + (length -2) + (length - 3) + (length -4)
@@ -54,6 +56,26 @@ public class CashRegister {
                 }
             }
         }
+        for (int i = 0; i < 107; i++) {
+            System.out.print("*");
+
+        }
+        System.out.println("\n");
+
+
+        for (Product c : orderList) {
+
+            System.out.println("\n" + c);
+        }
+        for (int i = 0; i < 107; i++) {
+            System.out.print("*");
+
+        }
+        System.out.println("");
+        System.out.printf("\nTax: %.2f", sumTotal * .06);
+        System.out.printf("\nYour total is:  $%.2f", grandTotal);
+
+
 //    public String toString(){
 //
 //        String result = "";
@@ -65,3 +87,5 @@ public class CashRegister {
 
     }
 }
+
+
